@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  div {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  button {
+    width: 40%;
+    margin: 10px 0px 5px 0px;
+    align-items: center;
+  }
+
+ 
