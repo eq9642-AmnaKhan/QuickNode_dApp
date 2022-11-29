@@ -1,5 +1,3 @@
-
-
 const ethers = require("ethers");
 require("dotenv").config({path: ".env"});
 
