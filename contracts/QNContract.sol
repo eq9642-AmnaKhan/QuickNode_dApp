@@ -15,10 +15,9 @@ contract QNContract {
         string _fName;
         string _lName;
     }
-    
+
     mapping(uint => Person) public people;
 
-    
 
     function addPerson(string memory _fName, string memory _lName) public {
         peopleCount +=1;
