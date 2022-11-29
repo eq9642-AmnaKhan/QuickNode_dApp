@@ -80,7 +80,7 @@ const quickContract = new ethers.Contract(contractAddress, abi, provider);
 
 (async () => {
   
-	//lets read on the contract
+	//lets read from the contract
 
     const count = await quickContract.peopleCount();
 
@@ -92,7 +92,7 @@ const quickContract = new ethers.Contract(contractAddress, abi, provider);
 
 	const contractWithWallet = quickContract.connect(wallet);
 
-	const tx = await contractWithWallet.addPerson("Vit", "Bue");
+	const tx = await contractWithWallet.addPerson("Milu", "Que");
 	await tx.wait();
 
 	console.log("One person added !");
